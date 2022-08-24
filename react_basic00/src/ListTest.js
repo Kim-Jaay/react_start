@@ -7,6 +7,13 @@ const DATA = [
     { id: 3, name: '한주현', age: 30, sleep: true }
 ]
 
+const detail = () => {
+    return (
+        <h2>DATA[0].title</h2>
+    )
+}
+
+
 const ListTest = () => {
     return (
         <ul>
