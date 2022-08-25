@@ -1,10 +1,16 @@
+import './basic.css'
 import Tab from "./pages/Tab01";
+import MainVisual from "./pages/MainVisual";
+import SyncSlick from "./pages/SyncSlick";
+
 
 const App = () => {
 
   return (
     <>
-      <Tab />
+      <MainVisual />
+      <hr />
+      <SyncSlick />
     </>
   )
 
